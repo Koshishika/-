@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "データサイエンス特論"
+version = "0.1.0"
+description = ""
+authors = ["Koshishika <sisikou@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+numpy = "^1.26.0"
+pandas = "^2.1.1"
+jupyter = "^1.0.0"
+matplotlib = "^3.8.0"
+statsmodels = "^0.14.0"
+yfinance = "^0.2.31"
+seaborn = "^0.13.0"
+feedparser = "^6.0.10"
+mecab = "^0.996.3"
+janome = "^0.5.0"
+sudachipy = "^0.6.7"
+sudachidict-core = "^20230927"
+wordcloud = "^1.9.2"
+scikit-learn = "^1.3.2"
+umap = "^0.1.1"
+umap-learn = "0.1.5"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
